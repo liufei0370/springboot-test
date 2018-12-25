@@ -7,7 +7,7 @@ import java.util.Date;
  * @table t_user
  * @author liufei
  * @description 用户表
- * @date 2018-12-21 17:01:47
+ * @date 2018-12-25 15:47:21
  */
 public class User implements Serializable {
     /**
@@ -18,7 +18,7 @@ public class User implements Serializable {
     /**
      * 用户名
      */
-    private String userName;
+    private String username;
 
     /**
      * 手机号码
@@ -28,7 +28,7 @@ public class User implements Serializable {
     /**
      * 用户昵称
      */
-    private String nickName;
+    private String nickname;
 
     /**
      * 密码
@@ -60,12 +60,12 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
     public String getMobile() {
@@ -76,12 +76,12 @@ public class User implements Serializable {
         this.mobile = mobile == null ? null : mobile.trim();
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName == null ? null : nickName.trim();
+    public void setNickname(String nickname) {
+        this.nickname = nickname == null ? null : nickname.trim();
     }
 
     public String getPassword() {

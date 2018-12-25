@@ -15,5 +15,12 @@
         <module>springboot-iservice</module>
     </modules>
 
-
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.54</version>
+        </dependency>
+    </dependencies>
 </project>

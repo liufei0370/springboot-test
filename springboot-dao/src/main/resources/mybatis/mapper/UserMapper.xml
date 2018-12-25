@@ -3,9 +3,9 @@
 <mapper namespace="com.springboot.test.mapper.UserMapper">
   <resultMap id="BaseResultMap" type="com.springboot.test.beans.User">
     <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="mobile" jdbcType="VARCHAR" property="mobile" />
-    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="deleted" jdbcType="INTEGER" property="deleted" />
     <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
@@ -41,7 +41,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, user_name, mobile, nick_name, password, deleted, create_date, update_date
+    id, username, mobile, nickname, password, deleted, create_date, update_date
   </sql>
   <select id="selectByExample" parameterType="com.springboot.test.beans.UserExample" resultMap="BaseResultMap">
     select
@@ -67,14 +67,14 @@
   <update id="updateByPrimaryKeySelective" parameterType="com.springboot.test.beans.User">
     update t_user
     <set>
-      <if test="userName != null">
-        user_name = #{userName,jdbcType=VARCHAR},
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
       </if>
       <if test="mobile != null">
         mobile = #{mobile,jdbcType=VARCHAR},
       </if>
-      <if test="nickName != null">
-        nick_name = #{nickName,jdbcType=VARCHAR},
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
       </if>
       <if test="password != null">
         password = #{password,jdbcType=VARCHAR},
@@ -93,9 +93,9 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.springboot.test.beans.User">
     update t_user
-    set user_name = #{userName,jdbcType=VARCHAR},
+    set username = #{username,jdbcType=VARCHAR},
       mobile = #{mobile,jdbcType=VARCHAR},
-      nick_name = #{nickName,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},
       deleted = #{deleted,jdbcType=INTEGER},
       create_date = #{createDate,jdbcType=TIMESTAMP},
