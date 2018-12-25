@@ -19,13 +19,18 @@ public class UserServiceImpl implements IUserService {
     UserMapper userMapper;
 
     @Override
+    public int insert(User record) {
+        return userMapper.insert(record);
+    }
+
+    @Override
+    public int insertSelective(User record) {
+        return userMapper.insertSelective(record);
+    }
+
+    @Override
     public List<User> selectByExample(UserExample example) {
-        try{
-            return userMapper.selectByExample(example);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return null;
+        return userMapper.selectByExample(example);
     }
 
     @Override

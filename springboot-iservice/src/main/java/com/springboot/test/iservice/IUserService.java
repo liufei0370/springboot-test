@@ -10,6 +10,10 @@ import java.util.List;
  * @date 2018/12/21 16:54
  */
 public interface IUserService {
+    int insert(User record);
+
+    int insertSelective(User record);
+
     List<User> selectByExample(UserExample example);
 
     User selectByPrimaryKey(Integer id);
