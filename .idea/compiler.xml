@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-beans" />
+        <module name="springboot-dao" />
+        <module name="springboot-iservice" />
+        <module name="springboot-iservice-impl" />
+        <module name="springboot-util" />
+        <module name="springboot-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="springboot-beans" target="1.5" />
+      <module name="springboot-dao" target="1.5" />
+      <module name="springboot-iservice" target="1.5" />
+      <module name="springboot-iservice-impl" target="1.8" />
+      <module name="springboot-test" target="1.5" />
+      <module name="springboot-util" target="1.5" />
+      <module name="springboot-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

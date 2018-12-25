@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-beans/springboot-beans.iml" filepath="$PROJECT_DIR$/springboot-beans/springboot-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dao/springboot-dao.iml" filepath="$PROJECT_DIR$/springboot-dao/springboot-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-iservice/springboot-iservice.iml" filepath="$PROJECT_DIR$/springboot-iservice/springboot-iservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-iservice-impl/springboot-iservice-impl.iml" filepath="$PROJECT_DIR$/springboot-iservice-impl/springboot-iservice-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-test.iml" filepath="$PROJECT_DIR$/springboot-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-util/springboot-util.iml" filepath="$PROJECT_DIR$/springboot-util/springboot-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+    </modules>
+  </component>
+</project>
