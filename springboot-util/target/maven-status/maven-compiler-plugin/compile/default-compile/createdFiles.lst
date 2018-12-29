@@ -1,2 +1,3 @@
+com\springboot\test\util\controller\BaseController.class
 com\springboot\test\util\response\AjaxResponse.class
 com\springboot\test\util\response\HTTPResponseCode.class

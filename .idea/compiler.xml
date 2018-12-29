@@ -17,6 +17,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="springboot-beans" target="1.5" />
       <module name="springboot-dao" target="1.5" />
+      <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-iservice" target="1.5" />
       <module name="springboot-iservice-impl" target="1.8" />
       <module name="springboot-test" target="1.5" />

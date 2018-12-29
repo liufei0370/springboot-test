@@ -2,6 +2,7 @@ package com.springboot.test.mapper;
 
 import com.springboot.test.beans.User;
 import com.springboot.test.beans.UserExample;
+
 import java.util.List;
 
 public interface UserMapper {

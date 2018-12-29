@@ -6,6 +6,7 @@ import com.springboot.test.beans.UserExample;
 import com.springboot.test.iservice.IUserService;
 import com.springboot.test.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
 
@@ -29,6 +30,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
+    @Cacheable(value = "myCache",key = "'user_list'")
     public List<User> selectByExample(UserExample example) {
         return userMapper.selectByExample(example);
     }
