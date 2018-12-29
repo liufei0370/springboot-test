@@ -1,6 +1,8 @@
 package com.springboot.test.iservice.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.springboot.test.beans.User;
 import com.springboot.test.beans.UserExample;
 import com.springboot.test.iservice.IUserService;
@@ -30,9 +32,10 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    @Cacheable(value = "myCache",key = "'user_list'")
-    public List<User> selectByExample(UserExample example) {
-        return userMapper.selectByExample(example);
+    @Cacheable(value = "myCache",key = "'user_list_'+#pageNum+'_'+#pageSize")
+    public PageInfo<User> selectByExample(UserExample example,int pageNum,int pageSize) {
+        PageHelper.startPage(pageNum,pageSize);
+        return new PageInfo(userMapper.selectByExample(example));
     }
 
     @Override

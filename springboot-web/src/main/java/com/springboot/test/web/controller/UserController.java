@@ -2,10 +2,12 @@ package com.springboot.test.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSONObject;
+import com.github.pagehelper.PageInfo;
 import com.springboot.test.beans.User;
 import com.springboot.test.beans.UserExample;
 import com.springboot.test.iservice.IUserService;
 import com.springboot.test.util.response.AjaxResponse;
+import com.springboot.test.util.validate.ValidateRex;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
@@ -32,8 +34,8 @@ public class UserController {
     @ApiOperation("获取所有用户信息")
     @PostMapping(value = "findAll")
     public AjaxResponse findAll(){
-        List<User> list = iUserService.selectByExample(new UserExample());
-        return AjaxResponse.success(list);
+        PageInfo<User> pageInfo = iUserService.selectByExample(new UserExample(),1,2);
+        return AjaxResponse.success(pageInfo);
     }
 
     @ApiOperation("注册")
@@ -42,6 +44,9 @@ public class UserController {
                                  @RequestParam String password,@RequestParam String mobile){
         try{
             logger.info("注册：username:{},nickname:{},password:{},mobile:{}", username,nickname,password,mobile);
+            if(!ValidateRex.isMobile(mobile)){
+                return AjaxResponse.error("手机号码不正确");
+            }
             User user = new User();
             user.setUsername(username);
             user.setNickname(nickname);

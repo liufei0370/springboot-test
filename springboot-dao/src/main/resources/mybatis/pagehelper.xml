@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 【mybatis的核心配置文件】 -->
+
+    <!-- 批量设置别名(可以不配) 作用：就是在mapper.xml文件中直接写类名，也可以不用写全路径名。 -->
+    <!--<typeAliases>
+        <package name="com.springboot.test.mapper" />
+    </typeAliases>-->
+    <!--<settings>-->
+        <!--<setting name="slf4j" value="logImpl"/>-->
+        <!--<setting name="logImpl" value="STDOUT_LOGGING"/>-->
+    <!--</settings>-->
+
+    <!-- 配置mybatis的分页插件PageHelper -->
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <!-- 设置数据库类型Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL六种数据库 4.0.0以上自动识别 -->
+            <property name="dialect" value="mysql"/>
+
+            <!-- 参数offset作为PageNum使用，默认不使用 -->
+            <property name="offsetPageSize" value="false"/>
+
+            <!-- 是否进行count查询，默认不查询 -->
+            <property name="rowBoundsWithCount" value="false"/>
+
+            <!-- 当设置为true时，如果pageSize设置为0或者RowBounds的limit=0,就不执行分页，返回所有的结果 -->
+            <property name="pageSizeZero" value="true"/>
+
+            <!-- 分页合理化 -->
+            <property name="reasonable" value="false"/>
+
+            <!-- 是否支持接口参数来传递分页参数，默认为false -->
+            <property name="supportMethodsArguments" value="false"/>
+
+            <!-- 是否返回分页信息 -->
+            <property name="returnPageInfo" value="none"/>
+        </plugin>
+    </plugins>
+
+</configuration>

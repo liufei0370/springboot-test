@@ -1,5 +1,6 @@
 package com.springboot.test.iservice;
 
+import com.github.pagehelper.PageInfo;
 import com.springboot.test.beans.User;
 import com.springboot.test.beans.UserExample;
 
@@ -14,7 +15,7 @@ public interface IUserService {
 
     int insertSelective(User record);
 
-    List<User> selectByExample(UserExample example);
+    PageInfo<User> selectByExample(UserExample example, int pageNum, int pageSize);
 
     User selectByPrimaryKey(Integer id);
 
