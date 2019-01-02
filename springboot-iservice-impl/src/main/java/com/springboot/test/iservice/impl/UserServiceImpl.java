@@ -32,10 +32,14 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    @Cacheable(value = "myCache",key = "'user_list_'+#pageNum+'_'+#pageSize")
     public PageInfo<User> selectByExample(UserExample example,int pageNum,int pageSize) {
         PageHelper.startPage(pageNum,pageSize);
         return new PageInfo(userMapper.selectByExample(example));
+    }
+
+    @Override
+    public List<User> selectByExample(UserExample example) {
+        return userMapper.selectByExample(example);
     }
 
     @Override

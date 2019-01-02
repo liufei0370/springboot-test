@@ -17,6 +17,8 @@ public interface IUserService {
 
     PageInfo<User> selectByExample(UserExample example, int pageNum, int pageSize);
 
+    List<User> selectByExample(UserExample example);
+
     User selectByPrimaryKey(Integer id);
 
     int updateByPrimaryKeySelective(User record);
