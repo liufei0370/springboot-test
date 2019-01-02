@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c57d7f-6d4c-4598-a050-736aa23fbf88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/cache/JvmCacheDataUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/BaseController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-util/src/main/java/com/springboot/test/util/controller/BaseController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-iservice/target/classes/com/springboot/test/iservice/IUserService.class" afterPath="$PROJECT_DIR$/springboot-iservice/target/classes/com/springboot/test/iservice/IUserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-iservice-impl/src/main/java/com/springboot/test/iservice/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/springboot-iservice-impl/src/main/java/com/springboot/test/iservice/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-iservice/src/main/java/com/springboot/test/iservice/IUserService.java" afterPath="$PROJECT_DIR$/springboot-iservice/src/main/java/com/springboot/test/iservice/IUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/UserController.java" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -233,57 +226,6 @@
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
@@ -557,7 +499,7 @@
       <workItem from="1545960065377" duration="20644000" />
       <workItem from="1546047462942" duration="16640000" />
       <workItem from="1546392769605" duration="91000" />
-      <workItem from="1546392984835" duration="8694000" />
+      <workItem from="1546392984835" duration="8957000" />
     </task>
     <task id="LOCAL-00001" summary="springboot测试项目，数据库为mysql&#10;1.集成mybatis&#10;2.集成swagger&#10;3.集成druid&#10;4.集成zookeeper和dubbo">
       <created>1545646144127</created>
@@ -608,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546076256828</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.新增手机号码验证">
+      <created>1546412774699</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546412774699</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124504000" />
+    <option name="totallyTimeSpent" value="124767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,7 +574,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -641,7 +589,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19152361" sideWeight="0.49526066" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19152361" sideWeight="0.49526066" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
