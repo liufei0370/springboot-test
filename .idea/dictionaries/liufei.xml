@@ -4,6 +4,8 @@
       <w>alibaba</w>
       <w>dubbo</w>
       <w>durid</w>
+      <w>jedis</w>
+      <w>sharded</w>
     </words>
   </dictionary>
 </component>
