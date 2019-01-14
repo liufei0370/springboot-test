@@ -4,37 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/springboot-iservice-impl/src/main/java/com/springboot/test/iservice/impl/UserServiceImpl.java" line="17" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57d7f-6d4c-4598-a050-736aa23fbf88" name="Default" comment="1.极光推送-安卓，苹果，winphone">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/static/easemob/web-im-1.4.13.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_easemob_rest_java_sdk_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_logging_interceptor_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/EasemobTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/AuthTokenAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/ChatGroupAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/ChatMessageAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/ChatRoomAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/EasemobAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/FileAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/IMUserAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/api/SendMessageAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobAuthToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobChatGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobChatMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobChatRoom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobIMUsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobSendMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/util/EasemobResponseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/util/EasemobResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/util/EasemobTokenUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/easemob.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/liufei.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/liufei.xml" />
+    <list default="true" id="a7c57d7f-6d4c-4598-a050-736aa23fbf88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-web/pom.xml" afterPath="$PROJECT_DIR$/springboot-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/package-info.java" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/package-info.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,90 +32,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EasemobTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/EasemobTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EasemobSendMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobSendMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessagesApi.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/easemob/rest-java-sdk/1.0.5/rest-java-sdk-1.0.5-sources.jar!/io/swagger/client/api/MessagesApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-              <folding>
-                <element signature="e#3826#4333#0" expanded="true" />
-                <element signature="e#4332#4333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiClient.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/easemob/rest-java-sdk/1.0.5/rest-java-sdk-1.0.5-sources.jar!/io/swagger/client/ApiClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="1104" column="30" lean-forward="false" selection-start-line="1104" selection-start-column="30" selection-end-line="1104" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OkHttpClient.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5-sources.jar!/com/squareup/okhttp/OkHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestBody.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5-sources.jar!/com/squareup/okhttp/RequestBody.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Msg.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/easemob/rest-java-sdk/1.0.5/rest-java-sdk-1.0.5-sources.jar!/io/swagger/client/model/Msg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding>
-                <element signature="e#3103#3104#0" expanded="true" />
-                <element signature="e#3129#3130#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,8 +82,8 @@
       <find>badge</find>
       <find>,TokenUtil</find>
       <find>OrgInfo</find>
-      <find>body</find>
       <find>localVarPostBody</find>
+      <find>body</find>
     </findStrings>
     <replaceStrings>
       <replace>com.springboot.test.dubbo</replace>
@@ -762,7 +656,7 @@
       <workItem from="1547050992310" duration="3000" />
       <workItem from="1547088129057" duration="14200000" />
       <workItem from="1547170447362" duration="13730000" />
-      <workItem from="1547429715811" duration="10768000" />
+      <workItem from="1547429715811" duration="14921000" />
     </task>
     <task id="LOCAL-00001" summary="springboot测试项目，数据库为mysql&#10;1.集成mybatis&#10;2.集成swagger&#10;3.集成druid&#10;4.集成zookeeper和dubbo">
       <created>1545646144127</created>
@@ -841,11 +735,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547429827479</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.环信推送">
+      <created>1547453840553</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547453840553</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188788000" />
+    <option name="totallyTimeSpent" value="192941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,7 +770,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5107296" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32349786" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.4892704" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3578199" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578199" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -949,7 +850,8 @@
     <MESSAGE value="1.redis的常用功能（key,string,list,set,zset,hash）" />
     <MESSAGE value="1.极光推送" />
     <MESSAGE value="1.极光推送-安卓，苹果，winphone" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.极光推送-安卓，苹果，winphone" />
+    <MESSAGE value="1.环信推送" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.环信推送" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,13 +865,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/jpush/api/jpush-client/3.3.9/jpush-client-3.3.9.jar!/cn/jpush/api/push/model/Platform.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/jpush/api/jiguang-common/1.1.3/jiguang-common-1.1.3-sources.jar!/cn/jiguang/common/DeviceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1248,7 +1143,7 @@
         <state relative-caret-position="135">
           <caret line="155" column="33" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,7 +1265,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/impl/EasemobSendMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="240">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
@@ -1395,10 +1290,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/easemob/rest-java-sdk/1.0.5/rest-java-sdk-1.0.5-sources.jar!/io/swagger/client/model/MsgContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/EasemobTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="310">
+          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1407,8 +1310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="330">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
