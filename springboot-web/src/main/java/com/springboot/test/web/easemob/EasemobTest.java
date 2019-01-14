@@ -25,11 +25,15 @@ public class EasemobTest {
          * target_type :users：用户，chatgroups：群组，
          */
         UserName userName = new UserName();
-        msg.setTargetType("users");
-        userName.add("liufei");
+//        msg.setTargetType("users");
+//        userName.add("liufei");
 //        msg.setTargetType("chatgroups");
 //        userName = new UserName();
 //        userName.add("71360786268161");
+        msg.targetType("chatrooms").msg(msgContent);
+        userName = new UserName();
+        userName.add("71368316092419");
+
 
         msg.target(userName).msg(msgContent);
         Object object = sendMessage.sendMessage(msg);
