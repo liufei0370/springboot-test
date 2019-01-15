@@ -45,8 +45,8 @@
       <file leaf-file-name="EasemobTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/EasemobTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="32">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -689,7 +689,7 @@
       <workItem from="1547088129057" duration="14200000" />
       <workItem from="1547170447362" duration="13730000" />
       <workItem from="1547429715811" duration="16332000" />
-      <workItem from="1547514917829" duration="2913000" />
+      <workItem from="1547514917829" duration="7461000" />
     </task>
     <task id="LOCAL-00001" summary="springboot测试项目，数据库为mysql&#10;1.集成mybatis&#10;2.集成swagger&#10;3.集成druid&#10;4.集成zookeeper和dubbo">
       <created>1545646144127</created>
@@ -789,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547460680783</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1.环信推送-创建聊天室">
+      <created>1547522149433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547522149433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197265000" />
+    <option name="totallyTimeSpent" value="201813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,7 +905,8 @@
     <MESSAGE value="1.极光推送" />
     <MESSAGE value="1.极光推送-安卓，苹果，winphone" />
     <MESSAGE value="1.环信推送" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.环信推送" />
+    <MESSAGE value="1.环信推送-创建聊天室" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.环信推送-创建聊天室" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1272,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/easemob/EasemobTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="32">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

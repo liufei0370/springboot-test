@@ -18,9 +18,9 @@ public class EasemobTest {
         //查询用户在线状态
 //        easemobTest.getIMUserStatus("liufei");
         //向用户推送消息
-//        easemobTest.sendMessage();
+        easemobTest.sendMessage();
         //创建聊天室
-        easemobTest.createRoom();
+        //easemobTest.createRoom();
     }
 
     public void sendMessage(){
@@ -35,10 +35,8 @@ public class EasemobTest {
 //        msg.setTargetType("users");
 //        userName.add("liufei");
 //        msg.setTargetType("chatgroups");
-//        userName = new UserName();
 //        userName.add("71360786268161");
         msg.targetType("chatrooms").msg(msgContent);
-        userName = new UserName();
         userName.add("71368316092419");
 
 
