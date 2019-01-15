@@ -1,6 +1,7 @@
 package com.springboot.test.web.easemob;
 
 import com.alibaba.fastjson.JSONObject;
+import com.springboot.test.web.easemob.impl.EasemobChatRoom;
 import com.springboot.test.web.easemob.impl.EasemobIMUsers;
 import com.springboot.test.web.easemob.impl.EasemobSendMessage;
 import io.swagger.client.model.*;
@@ -15,12 +16,18 @@ public class EasemobTest {
         //新增用户
         //easemobTest.createNewIMUserSingle();
         //查询用户在线状态
-        easemobTest.getIMUserStatus("liufei");
+//        easemobTest.getIMUserStatus("liufei");
         //向用户推送消息
+//        easemobTest.sendMessage();
+        //创建聊天室
+        easemobTest.createRoom();
+    }
+
+    public void sendMessage(){
         EasemobSendMessage sendMessage = new EasemobSendMessage();
         Msg msg = new Msg();
         MsgContent msgContent = new MsgContent();
-        msgContent.type(MsgContent.TypeEnum.TXT).msg("环信测试");
+        msgContent.type(MsgContent.TypeEnum.TXT).msg("环信测试rooms");
         /**
          * target_type :users：用户，chatgroups：群组，
          */
@@ -57,5 +64,13 @@ public class EasemobTest {
         Object result = imUsers.getIMUserStatus(username);
         JSONObject jsonObject = JSONObject.parseObject(result.toString());
         System.out.println(jsonObject.getJSONObject("data").getString(username));
+    }
+
+    public void createRoom(){
+        EasemobChatRoom easemobChatRoom = new EasemobChatRoom();
+        Chatroom chatroom = new Chatroom();
+        chatroom.name("测试").description("创建room测试").owner("liufei").maxusers(200);
+        Object object = easemobChatRoom.createChatRoom(chatroom);
+        System.out.println(object.toString());
     }
 }
