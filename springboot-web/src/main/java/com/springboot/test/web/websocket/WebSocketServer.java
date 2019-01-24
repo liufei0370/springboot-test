@@ -65,22 +65,24 @@ public class WebSocketServer {
      */
     @OnMessage
     public void onMessage(Session session,String message){
-        logger.info("收到来自窗口："+this.sid+"的信息："+message);
-        Message data = null;
-        try{
-            data = JSONObject.parseObject(message,Message.class);
-        }catch (Exception e){
-            data = new Message();
-            data.setCategory("string");
-            data.setContent(message);
-        }
-        data.setSendTime(new Date());
-        //群发消息--消息发送给除当前用户的其他所有用户
-        for(WebSocketServer server : webSocketServerMap.values()){
-            if(!server.sid.equals(this.sid)){
-                Command command = Command.success("收到一条来自sid："+this.sid+"的消息");
-                command.setData(data);
-                server.sendCommand(command);
+        if(!"000000".equals(message)){
+            logger.info("收到来自窗口："+this.sid+"的信息："+message);
+            Message data;
+            try{
+                data = JSONObject.parseObject(message,Message.class);
+            }catch (Exception e){
+                data = new Message();
+                data.setCategory("string");
+                data.setContent(message);
+            }
+            data.setSendTime(new Date());
+            //群发消息--消息发送给除当前用户的其他所有用户
+            for(WebSocketServer server : webSocketServerMap.values()){
+                if(!server.sid.equals(this.sid)){
+                    Command command = Command.success("收到一条来自sid："+this.sid+"的消息");
+                    command.setData(data);
+                    server.sendCommand(command);
+                }
             }
         }
     }
