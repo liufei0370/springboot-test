@@ -1,4 +1,4 @@
-package com.springboot.test.web.kafka;
+package com.springboot.test.web.kafka.test;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
