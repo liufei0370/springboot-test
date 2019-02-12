@@ -54,4 +54,5 @@ public class KafkaController {
             return AjaxResponse.error(e.getMessage());
         }
     }
+
 }
