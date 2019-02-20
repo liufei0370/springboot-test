@@ -28,7 +28,7 @@ public class UserController extends BaseController {
     IUserService iUserService;
 
     @ApiOperation("获取所有用户信息")
-    @GetMapping(value = "findAll")
+    @RequestMapping(value = "findAll")
     public AjaxResponse findAll(){
         PageInfo<User> pageInfo = iUserService.selectByExample(new UserExample(),1,2);
         return AjaxResponse.success(pageInfo);
