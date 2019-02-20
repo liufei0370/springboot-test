@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c57d7f-6d4c-4598-a050-736aa23fbf88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/shiro/config/ShiroConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/shiro/realm/MyShiroRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/liufei.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/liufei.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-web/pom.xml" afterPath="$PROJECT_DIR$/springboot-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
@@ -80,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BasicFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="139">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -205,8 +187,8 @@
         <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/shiro/realm/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/shiro/realm/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/shiro/config/ShiroConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java" />
         <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java" />
       </list>
     </option>
   </component>
@@ -717,7 +699,7 @@
       <workItem from="1550027560379" duration="3564000" />
       <workItem from="1550047038921" duration="1278000" />
       <workItem from="1550107095073" duration="1266000" />
-      <workItem from="1550644092551" duration="1178000" />
+      <workItem from="1550644092551" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="springboot测试项目，数据库为mysql&#10;1.集成mybatis&#10;2.集成swagger&#10;3.集成druid&#10;4.集成zookeeper和dubbo">
       <created>1545646144127</created>
@@ -873,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549959917988</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1.springboot添加跨域访问">
+      <created>1550645749205</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1550645749205</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336381000" />
+    <option name="totallyTimeSpent" value="336432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,7 +980,8 @@
     <MESSAGE value="1.websocket消息推送" />
     <MESSAGE value="1.websocket消息推送，过滤心跳000000" />
     <MESSAGE value="1.springboot集成kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.springboot集成kafka" />
+    <MESSAGE value="1.springboot添加跨域访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.springboot添加跨域访问" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1214,18 +1204,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-web/src/main/java/com/springboot/test/web/filter/BasicFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>

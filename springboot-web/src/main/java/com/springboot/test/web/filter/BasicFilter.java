@@ -7,7 +7,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by zhaishixi on 2017/3/13 0013.
+ * 添加拦截
+ * options：跨域访问
+ * Created by liufei on 2017/3/13 0013.
  */
 @Component
 public class BasicFilter implements Filter {
