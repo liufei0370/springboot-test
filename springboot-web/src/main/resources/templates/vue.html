@@ -1,0 +1,30 @@
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script>
+<body>
+<div id="app">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+    <button v-on:click="showDetails">跨域访问测试</button>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue.js!'
+        },
+        methods: {
+            reverseMessage: function () {
+                this.message = this.message.split('').reverse().join('')
+            },
+            showDetails: function () {
+                this.$http.post('http://localhost:8080/user/findAll').then(function (res) {
+                    console.log(res) // 返回很多的数据,比如执行状态,url,data等等
+                    console.log(res.data)// 返回的json数据
+                    console.log(res.data.message)// json对象里面的信息
+                    this.msg = res.data.message
+                })
+            }
+        }
+    })
+</script>
+</body>

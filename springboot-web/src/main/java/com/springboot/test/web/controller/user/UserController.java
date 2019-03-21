@@ -10,8 +10,11 @@ import com.springboot.test.util.validate.ValidateRex;
 import com.springboot.test.web.controller.BaseController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.List;
 
@@ -24,12 +27,15 @@ import java.util.List;
 @RequestMapping(value = "user")
 public class UserController extends BaseController {
 
+    private static Logger logger = LoggerFactory.getLogger(UserController.class);
+
     @Reference
     IUserService iUserService;
 
     @ApiOperation("获取所有用户信息")
     @RequestMapping(value = "findAll")
-    public AjaxResponse findAll(){
+    public AjaxResponse findAll(HttpServletRequest request){
+        logger.info(request.getHeader("token"));
         PageInfo<User> pageInfo = iUserService.selectByExample(new UserExample(),1,2);
         return AjaxResponse.success(pageInfo);
     }
