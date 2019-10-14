@@ -22,8 +22,8 @@ import java.util.regex.Pattern;
  * @author liufei
  * @date 2019/1/30 11:04
  */
-@Configuration
-@EnableKafka
+//@Configuration
+//@EnableKafka
 public class KafkaConfig {
 
     /* --------------producer configuration-----------------**/

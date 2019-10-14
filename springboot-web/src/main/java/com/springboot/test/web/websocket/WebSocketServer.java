@@ -53,6 +53,7 @@ public class WebSocketServer {
             server.sendCommand(Command.error("您的账号在其他地方登陆，连接断开"));
             server.close();
         }
+        session.setMaxIdleTimeout(1000);
         webSocketServerMap.put(this.sid,this);
         logger.info("有新窗口开始监听："+sid+"，当前在线人数为"+webSocketServerMap.size());
         sendCommand(Command.success("连接成功"));

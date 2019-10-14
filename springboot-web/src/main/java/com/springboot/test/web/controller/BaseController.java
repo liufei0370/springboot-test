@@ -14,16 +14,23 @@ public class BaseController {
 
     protected HttpServletRequest request;
 
-    protected Integer getPageNum(){
+    protected Integer getPageNum() {
         Integer pageNumber = 1;
-        try{
+        try {
             pageNumber = Integer.valueOf(request.getParameter("pageNumber"));
-            if(pageNumber==null){
+            if (pageNumber == null) {
                 pageNumber = 1;
             }
-        }catch (Exception e){
-            logger.error("pageNumber参数传值异常",e);
+        } catch (Exception e) {
+            logger.error("pageNumber参数传值异常", e);
         }
         return pageNumber;
     }
+
+    /*@InitBinder
+    public void initBinder(ServletRequestDataBinder binder) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf, true));
+
+    }*/
 }

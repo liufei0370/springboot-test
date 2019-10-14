@@ -47,4 +47,11 @@ public class GeneratorController extends BaseController {
     public void test5(User user){
         System.out.println("test5POST方法测试"+user.getNickname());
     }
+
+    @ResponseBody
+    @PostMapping(value = {"test6"})
+    public String test6(@RequestBody User user){
+        System.out.println("test6POST方法测试"+user.getNickname());
+        return "test6";
+    }
 }
