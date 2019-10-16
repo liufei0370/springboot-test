@@ -188,14 +188,26 @@ public class DatabaseUtil {
     public static void main(String[] args) {
         List<String> tableNames = getTableNames();
         System.out.println("tableNames:" + tableNames);
+        List<String> notGenerator = new ArrayList<>();
+        notGenerator.add("create_user_id");
+        notGenerator.add("create_time");
+        notGenerator.add("modify_time");
+        notGenerator.add("modify_user_id");
+        notGenerator.add("id");
         for (String tableName : tableNames) {
             if(!tableName.equals("t_emp")){
                 continue;
             }
-            System.out.println("");
-            System.out.println("ColumnNames:" + getColumnNames(tableName));
-            System.out.println("ColumnTypes:" + getColumnTypes(tableName));
-            System.out.println("ColumnComments:" + getColumnComments(tableName));
+            List<String> columnNames = getColumnNames(tableName);
+//            List<String> columnTypes = getColumnTypes(tableName);
+            List<String> columnComments = getColumnComments(tableName);
+            for(int i =0;i<columnNames.size();i++){
+                String columnName = columnNames.get(i);
+                if(notGenerator.contains(columnName)){
+                    continue;
+                }
+                System.out.println("insert into t_card_value(alias_name,table_code,column_code) values('"+columnComments.get(i).split(",")[0]+"','"+tableName+"','"+columnName+"');");
+            }
         }
     }
 }
